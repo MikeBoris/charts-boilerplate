@@ -4,8 +4,10 @@ charts-boilerplate
 Minimal Flask boilerplate with graphs/tables
 
 ## Contents
-
--flask
--sqlite
--highcharts.js
--datatables.js
+### Backend
+- Flask
+- sqlite
+### Frontend
+- [Bootstrap](http://getbootstrap.com/)
+- [Highcharts](https://www.highcharts.com/docs/getting-started)
+- [datatables](https://datatables.net/)
