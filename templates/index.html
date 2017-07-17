@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
-  <title>Charts Boilerplate/title>
+  <title>Charts Boilerplate</title>
   
 
 <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
@@ -174,9 +174,20 @@ code {
   
  
 <script>
+
+//var dataset = {{ data }};
+
 $(function () {
 
-$('#table_data').DataTable();
+$('#table_data').DataTable( {
+    /*
+    data: dataset,
+    columns: [
+        { title: "Name" },
+        { title: "Count" }
+    ]
+    */
+});
 
     Highcharts.chart('container', {
     data: {
